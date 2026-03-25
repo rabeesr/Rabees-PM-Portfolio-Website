@@ -70,29 +70,66 @@ export const experiences: Experience[] = [
     role: "Sr. Technical Product Manager Intern",
     company: "Amazon",
     period: "Jun 2025 — Aug 2025",
-    description:
-      "Launched a 0-to-1 agentic AI platform for Amazon's flagship international e-commerce marketplaces, reducing launch cycle time by 70%. Shipped a new LLM-agent for supply chain and logistics, reducing hallucinations by 30%. Drove A/B experimentation on international shopping experiences, increasing checkout conversion ~15% across 6 countries.",
+    summary:
+      "Owned the product vision and delivery for a 0-to-1 agentic AI platform that automated marketplace launches across Amazon's international e-commerce business, working at the intersection of LLMs, supply chain, and global operations.",
+    accomplishments: [
+      "Built and shipped an agentic AI platform that automated cross-functional workflows across engineering, supply chain, operations, and finance",
+      "Shipped a purpose-built LLM-agent for supply chain and logistics, owning the full cycle from PRD through evaluation metrics and guardrails to MVP",
+      "Designed and ran A/B experiments on international customer shopping experiences across 6 countries",
+    ],
+    impact:
+      "Reduced marketplace launch cycle time by 70% (6 months), cut LLM hallucinations by 30% through guardrail design, and increased checkout conversion ~15% internationally.",
+    learnings:
+      "Learned how to scope and ship AI products under extreme ambiguity at massive scale. Developed a framework for designing evaluation metrics and guardrails for LLM-based systems. Strengthened cross-functional influence — aligning engineering, supply chain, and finance teams with different incentives toward a shared product outcome.",
   },
   {
     role: "Sr. Technical Product Manager — AI & Advanced Analytics",
     company: "Koch Industries",
     period: "Dec 2022 — Aug 2024",
-    description:
-      "Launched 5 enterprise ML products creating ~$120M in projected NPV. Architected AI services for the largest U.S. glass manufacturer, deploying across 25 plants and improving gross margins by ~30%. Formulated go-to-market strategy for 3 patented ML forecasting algorithms valued at $20M. Scaled Gen AI adoption across 7+ subsidiaries by building an internal marketplace of LLM architectures and accelerators.",
+    summary:
+      "Led AI product strategy for the 2nd largest private company in America, launching enterprise ML products for manufacturing, forecasting, and Gen AI adoption across Koch's portfolio of subsidiaries.",
+    accomplishments: [
+      "Launched 5 enterprise ML products after conducting 50+ executive interviews (VPs, Presidents) to translate business priorities into AI use cases",
+      "Architected end-to-end AI services — data pipelines, MLOps workflows, and model APIs — for the largest U.S. glass manufacturer",
+      "Formulated go-to-market strategy for 3 patented ML forecasting algorithms, developing the venture pitch, MVP, roadmap, and pricing",
+      "Built an internal Gen AI marketplace of LLM architectures, prompt templates, and accelerators; delivered workshops for executives and engineers",
+    ],
+    impact:
+      "Created ~$120M in projected NPV across 5 ML products. Improved gross margins ~30% across 25 manufacturing plants. Positioned $20M in patented algorithms for commercialization. Accelerated Gen AI experimentation ~60% across 7+ subsidiaries.",
+    learnings:
+      "Learned to sell AI to skeptical business leaders by anchoring every conversation in their P&L. Built deep expertise in MLOps and production ML systems. Gained experience navigating complex stakeholder dynamics across a massive conglomerate — where each subsidiary operates as its own business with distinct priorities.",
   },
   {
     role: "Technical Product Manager — AI & Advanced Analytics",
     company: "Koch Industries",
     period: "Jul 2021 — Dec 2022",
-    description:
-      "Led a cross-functional team of 7 to build an HR analytics platform predicting attrition with ~80% accuracy, reducing turnover costs by $2M annually. Designed a supply chain optimization app from concept to launch, increasing annual revenue $200K. Defined requirements for an ML-driven real estate asset valuation platform, reducing property tax exposure by $4M.",
+    summary:
+      "First PM hire on Koch's central AI team, responsible for building ML-powered products across HR, supply chain, and real estate — taking each from problem discovery through launch and adoption.",
+    accomplishments: [
+      "Led a cross-functional team of 7 data scientists, engineers, and economists to build an HR analytics platform predicting employee attrition",
+      "Designed a supply chain optimization app end-to-end, defining ~75 product requirements and UX flows for 5 personas",
+      "Defined requirements for an ML-driven real estate asset valuation platform, piloting the MVP across 3 regions",
+      "Analyzed a $125M AI startup portfolio to assess product-market fit and surface investment insights",
+    ],
+    impact:
+      "Predicted attrition with ~80% accuracy, saving $2M annually in turnover costs and driving adoption by 50+ recruiters across 4 business units. Increased annual revenue $200K through supply chain efficiency. Reduced property tax exposure by $4M.",
+    learnings:
+      "Learned how to be a founding PM — defining processes, earning trust, and establishing product thinking in an engineering-led org. Developed strong instincts for translating ambiguous business problems into concrete ML product requirements. Built experience managing data science teams and understanding the unique iteration cycles of ML development.",
   },
   {
     role: "Chemical Engineer",
     company: "WEC Energy Group",
     period: "Jan 2017 — Jul 2021",
-    description:
-      "Spearheaded a $50M digital transformation for an energy conglomerate, generating $15M in annual benefits for 3 utility companies across 2 states. Built and deployed a custom mobile application to track gas pipeline projects across 4 districts in Chicago, resulting in ~$75K annual savings.",
+    summary:
+      "Transitioned from traditional engineering into technology by leading a $50M digital transformation for a Midwestern energy conglomerate, digitizing operations and building custom software to modernize utility infrastructure.",
+    accomplishments: [
+      "Spearheaded digital transformation across 3 utility companies in 2 states — digitizing operations, automating processes, and modernizing reporting",
+      "Built and deployed a custom mobile application for tracking gas pipeline project execution across 4 districts in Chicago",
+    ],
+    impact:
+      "Generated $15M in annual benefits across the energy portfolio. The mobile app alone delivered ~$75K in annual savings through optimized resource utilization and reduced regulatory fines.",
+    learnings:
+      "This is where I discovered my passion for building products. Learned that the hardest part of digital transformation isn't the technology — it's change management and getting field operators to trust new tools. Built the operational mindset and systems thinking that I carry into every PM role.",
   },
 ];
 

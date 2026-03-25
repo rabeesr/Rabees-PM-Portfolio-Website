@@ -58,9 +58,45 @@ export default function About() {
                 <p className="text-sm font-medium text-accent mb-3">
                   {exp.company}
                 </p>
-                <p className="text-sm text-muted leading-relaxed">
-                  {exp.description}
+                <p className="text-sm text-muted leading-relaxed mb-4">
+                  {exp.summary}
                 </p>
+
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-wider mb-2">
+                      Key Accomplishments
+                    </h4>
+                    <ul className="list-disc list-outside ml-4 space-y-1">
+                      {exp.accomplishments.map((item, j) => (
+                        <li
+                          key={j}
+                          className="text-sm text-muted leading-relaxed"
+                        >
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-wider mb-1">
+                      Impact
+                    </h4>
+                    <p className="text-sm text-muted leading-relaxed">
+                      {exp.impact}
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-wider mb-1">
+                      Learnings
+                    </h4>
+                    <p className="text-sm text-muted leading-relaxed">
+                      {exp.learnings}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           ))}
