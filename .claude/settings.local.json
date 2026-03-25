@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/Rabees/Library/Mobile Documents/com~apple~CloudDocs/Development/**)",
+      "Bash(printf 'N\\\\nN\\\\n')",
+      "Bash(npx create-next-app@latest portfolio-temp --typescript --tailwind --eslint --app --src-dir --use-npm --import-alias \"@/*\")",
+      "Bash(cp -a portfolio-temp/. DesignBuildShip/)",
+      "Bash(rm -rf portfolio-temp)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
