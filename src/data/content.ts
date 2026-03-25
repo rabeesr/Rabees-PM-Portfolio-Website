@@ -219,8 +219,8 @@ export const devProjects: Project[] = [
       "Responsive clinical UI designed for psychiatrist workflows",
     ],
     tags: ["Next.js", "FHIR", "Machine Learning", "Healthcare"],
-    link: "https://github.com/rabee/braiv-ai",
-    year: "2025",
+    link: "https://braiv.tech/",
+    year: "2026",
   },
   {
     id: "portfolio-site",
@@ -234,7 +234,7 @@ export const devProjects: Project[] = [
       "Embedded PDF resume viewer",
     ],
     tags: ["Next.js", "Tailwind CSS", "TypeScript", "Portfolio"],
-    link: "https://github.com/rabee/portfolio",
+    link: "https://github.com/rabeesr/rabeesr",
     year: "2026",
   },
   {
@@ -249,7 +249,7 @@ export const devProjects: Project[] = [
       "Dark mode with system preference detection",
     ],
     tags: ["React", "D3.js", "WebSocket", "Data Visualization"],
-    link: "https://github.com/rabee/analytics-dashboard",
+    link: "https://github.com/rabeesr/rabeesr",
     year: "2024",
   },
   {
@@ -264,7 +264,7 @@ export const devProjects: Project[] = [
       "JSON/CSV export for integration with other tools",
     ],
     tags: ["Python", "SQLite", "CLI", "Developer Tools"],
-    link: "https://github.com/rabee/taskflow-cli",
+    link: "https://github.com/rabeesr/rabeesr",
     year: "2023",
   },
 ];
